@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+html {
+    background-color: rgb(72, 72, 72);
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar {
+    background-color: rgb(50, 50, 50);
+    padding: 20px;
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+#logo {
+    margin: 0 5px -9px 0;
+    padding: 0 0 -15px 0;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    padding: 100px;
+}
+
+.form form {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.321);
+    background-color: rgb(67, 67, 67);
+    padding: 30px 30px;
+    color: white;
+    backdrop-filter: blur(2%);
+    width: 280px;
+}
+
+.form form>* {
+    margin: 10px;
+    font-size: 1.5em;
+}
+
+.form form input {
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: solid 1px black;
+    padding-bottom: 5px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.2em;
+    color: white;
+
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px rgb(67, 67, 67) inset !important;
+    -webkit-text-fill-color: white;
+}
+
+.form form input[type=submit] {
+    width: 40%;
+    align-self: center;
+    margin-top: 20px;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+    padding: 15px 0px 12px 0px;
+    border: none;
+    background-color: rgb(255, 94, 0);
+
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 100px;
+}
+
+.form form input[type=submit]:active {
+    color: rgb(255, 94, 0);
+
+}
+
+.form form input[type=submit]:hover {
+    background-color: white;
+    transition: 0.2s ease;
+}
+
+#eye-open {
+    display: none;
+}
+
+ion-icon {
+    margin: 0 0 -6px 0;
+}
+
+.eye {
+    margin: 0 0 -6px 5px;
+    cursor: pointer;
+    position: absolute;
+}
+
+#log-reg {
+    text-decoration: none;
+    color: white;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+
+.navbar {
+    background-color: rgb(50, 50, 50);
+    padding: 20px;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    padding: 0px 40px;
+    flex: 1;
+}
+
+#site-name {
+    padding: 0px;
+    font-size: 3rem;
+    flex: 4;
+}
+
+#logo {
+    flex: 4;
+    margin: 0 5px -9px 0;
+    padding: 0 0 -15px 0;
+}
+
+.org-btn {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(255, 94, 0);
+    text-decoration: none;
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 0.4em;
+    margin: 5px 15px 5px 0px;
+    cursor: pointer;
+}
+
+.org-btn:active {
+    color: rgb(255, 94, 0);
+}
+
+.org-btn:hover {
+    background-color: white;
+    transition: 0.2s ease;
+}
+
+
+.hero {
+    margin-top: 70px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    padding-left: 40px;
+    display: flex;
+}
+
+.hero-text {
+    flex: 1;
+    padding-left: 40px;
+}
+
+#joinButton {
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: none;
+    background-color: rgb(255, 94, 0);
+    text-decoration: none;
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#joinButton:active {
+    color: rgb(255, 94, 0);
+}
+
+#joinButton:hover {
+    background-color: white;
+    transition: 0.2s ease;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    padding-right: 100px;
+}
+
+.hero-image img {
+    width: 350px;
+    margin-left: 100px;
+}
