@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+html {
+    background-color: rgb(255, 255, 255);
+    background-image: url('../Images/bg3.jpg');
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.navbar {
+    background-color: #5cccf0;
+    padding: 20px;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    padding: 0px 40px;
+}
+
+#site-name {
+    padding: 0px;
+    font-size: 3rem;
+    flex: 4;
+}
+
+#logo {
+    flex: 4;
+    margin: 0 5px -9px 0;
+    padding: 0 0 -15px 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.form {
+    padding: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.create {
+    margin-top: 3vh;
+    background-color: rgba(255, 255, 255, 0.84);
+    border: 1px solid black;
+    padding: 3vh 0px 1vh 1vh;
+    border-radius: 10px;
+}
+
+.create input[type=text],
+textarea {
+    margin: 20px;
+    padding: 15px 15px;
+    font-size: 1em;
+    font-family: "Josefin Sans", sans-serif;
+    border-radius: 10px;
+    width: 40vw;
+    border: 1px solid black;
+
+}
+
+.create button[type=submit] {
+    border: 1px solid black;
+
+    padding: 10px;
+    font-size: 1em;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+    align-self: center;
+
+}
+
+ion-icon {
+    margin: 0 5px -5px 0;
+    padding: 0 0 -15px 0;
+}

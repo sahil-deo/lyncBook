@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+html {
+    background-color: rgb(72, 72, 72);
+    background-image: url('../Images/bg2.jpg');
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: rgb(50, 50, 50);
+    padding: 20px;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    padding: 0px 40px;
+}
+
+#site-name {
+    padding: 0px;
+    font-size: 3rem;
+    flex: 4;
+}
+
+#logo {
+    flex: 4;
+    margin: 0 5px -9px 0;
+    padding: 0 0 -15px 0;
+}
+
+.org-btn {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(255, 94, 0);
+    text-decoration: none;
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 0.4em;
+    margin: 5px 15px 5px 0px;
+    cursor: pointer;
+}
+
+.org-btn:active {
+    color: rgb(255, 94, 0);
+}
+
+.org-btn:hover {
+    background-color: white;
+    transition: 0.2s ease;
+}
+
+.index-btn {
+    height: 80%;
+    align-self: center;
+    margin-right: 10px;
+}
+
+
+.main {
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}

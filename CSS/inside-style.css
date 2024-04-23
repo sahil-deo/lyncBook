@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+html {
+    background-color: rgb(72, 72, 72);
+    background-image: url('../Images/bg3.jpg');
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #5cccf0;
+
+    padding: 2.7vh;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.6vw;
+    padding: 0px 3vw;
+}
+
+#site-name {
+    padding: 0px;
+    font-size: 3rem;
+    flex: 4;
+}
+
+#logo {
+    flex: 4;
+    margin: 0 5px -9px 0;
+    padding: 0 0 -15px 0;
+}
+
+.org-btn {
+    padding: 12px 20px 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 0.4em;
+    margin: 5px 15px 5px 0px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.org-btn:active {
+    color: rgb(255, 255, 255)
+}
+
+.org-btn:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: 0.2s ease;
+}
+
+
+.search {
+    flex: 4;
+    padding: 10px 0px 10px 10px;
+}
+
+.search input[type=text] {
+    padding: 5px 15px;
+    font-size: 1em;
+    font-family: "Josefin Sans", sans-serif;
+    outline: none;
+    border-radius: 10px 0px 0px 10px;
+    width: 70vw;
+    border: 1px black solid;
+    border-right: none;
+}
+
+.search button[type=submit] {
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+    border: 1px black solid;
+    border-left: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-items: centers;
+}
+
+.create {
+    flex: 2;
+    padding: 10px;
+}
+
+.create button {
+    padding: 15px;
+    font-size: 1em;
+    font-family: "Josefin Sans", sans-serif;
+    outline: none;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px black solid;
+
+}
+
+.clubs {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-self: center;
+}
+
+.club {
+    border: 1px black solid;
+    background: rgba(255, 255, 255, 0.795);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+
+.club a {
+    padding: 5px;
+}
+
+ion-icon {
+    margin: 0 5px -5px 0;
+    padding: 0 0 -15px 0;
+}
